@@ -1,4 +1,4 @@
-.img1 {
+/* .img1 {
   content: url("https://picsum.photos/id/237/200/300");
 }
 
@@ -14,12 +14,13 @@
 }
 .img5 {
   content: url("https://picsum.photos/200/300.jpg");
-}
+} */
 
 img {
   margin: 10px;
   border: 5px solid #555;
   width: 10%;
+  cursor: pointer;
 }
 
 .flex {
@@ -28,7 +29,7 @@ img {
 }
 
 .selected {
-  border: 5px solid rgb(0, 195, 255);
+  border: 5px solid rgb(68, 0, 255);
 }
 
 p {
@@ -38,3 +39,12 @@ p {
 button {
   margin: 20px;
 }
+
+#reset{
+  display: none;
+}
+
+#verify{
+  display: none;
+}
+
